@@ -1,0 +1,23 @@
+{
+  "name": "ex01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc && node dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/algo2000/typescript_ex.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/algo2000/typescript_ex/issues"
+  },
+  "homepage": "https://github.com/algo2000/typescript_ex#readme",
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
+}
