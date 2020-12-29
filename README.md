@@ -14,6 +14,14 @@ $ npm i typescript -d
 $ mkdir src
 ```
 
+```bash
+$ tsc --init
+```
+
+```bash
+$ npm i ts-node @types/node -d 
+```
+
 ### package.json
 ```json
 "main": "dist/index.js",
@@ -21,14 +29,6 @@ $ mkdir src
     "dev" : "ts-node src",
     "build": "tsc && node dist"
   },
-```
-
-```bash
-$ tsc --init
-```
-
-```bash
-$ npm i ts-node -d 
 ```
 
 ### tsconfig.json
@@ -44,6 +44,7 @@ $ npm i ts-node -d
         "strict": true,
         "rootDirs": ["src"],
         "esModuleInterop": true,
+        "downlevelIteration": true,
         "skipLibCheck": true,
         "forceConsistentCasingInFileNames": true
     }
