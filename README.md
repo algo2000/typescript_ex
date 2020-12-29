@@ -33,6 +33,13 @@ $ npm i -S chance
 $ npm i -D @types/chance
 ```
 
+```bash
+$ vim .gitignore
+
+node_modules
+package-lock.json
+```
+
 ### package.json
 ```json
 "main": "dist/index.js",
