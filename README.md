@@ -19,8 +19,7 @@ $ tsc --init
 ```
 
 ```bash
-$ npm i ts-node -d 
-@types/node
+npm i -D ts-node @types/node
 ```
 
 ```bash
