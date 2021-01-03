@@ -3,3 +3,6 @@ import {Valueable} from './constraint/Valueable'
 
 printValueT(new Valueable(1))
 printValueT({value: true})
+
+// 1
+// true

@@ -1,7 +1,7 @@
-import {IShape} from './IShape'
+import { IShape } from './IShape'
 
 export const calcArea = (shape: IShape): number => {
-    switch(shape.tag) {
+    switch (shape.tag) {
         case 'square': return shape.size * shape.size
         case 'rectangle': return shape.width * shape.height
         case 'circle': return Math.PI * shape.radius * shape.radius
